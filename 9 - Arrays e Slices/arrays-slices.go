@@ -43,4 +43,30 @@ func main() {
 	array2[1] = "Posição Alterada"
 	fmt.Println(slice2)
 
+	fmt.Println("-------------------------------------------------------------------------")
+
+	//ARRAYS INTERNOS -->
+	//função make --> aloca um espaço na memoria para uma determinada coisa
+	//sempre que a capacidade de um slice é estourada, ele dobra o seu tamanho pra que essa capacidade nunca
+	//seja limitada
+	slice3 := make([]float32, 10, 11)
+	fmt.Println(slice3)
+
+	fmt.Println(len(slice3)) // len (length) --> função para ver o tamanho
+	fmt.Println(cap(slice3)) // cap --> função para ver a capacidade
+
+	slice3 = append(slice3, 5)
+	slice3 = append(slice3, 6)
+
+	fmt.Println(slice3)
+	fmt.Println(len(slice3))
+	fmt.Println(cap(slice3))
+
+	//quando não deficimos a capacidade do slice na função make, ele é definido como o tamanho dele
+	slice4 := make([]float32, 5)
+	fmt.Println(slice4)
+	slice4 = append(slice4, 10)
+	fmt.Println(len(slice4))
+	fmt.Println(cap(slice4))
+
 }
