@@ -69,4 +69,6 @@ func main() {
 	fmt.Println(len(slice4))
 	fmt.Println(cap(slice4))
 
+	//De modo geral, o array é uma lista de tamanho fixo e o slice é uma lista sem tamanho fixo
+
 }
