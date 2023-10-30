@@ -24,7 +24,8 @@ func alunoAprovado(n1, n2 float32) bool {
 	//a função panic interrompe o fluxo normal do seu programa quando retorna algo inesperado e vai parar o processo, ele vai "entrar em panico"
 	//ela vai chamar todas as funções que tem defer se você não chamar o recover e o programa morre
 	//o erro pode ser tratado e continuar a execussão do programa, o panic interrompe e mata o programa e nada
-	//que vem a seguir é executado, o programa só pode ser recuperado usando a clausula recover
+	//que vem a seguir é executado, o programa só pode ser recuperado usando a clausula recover, não é recomendado
+	//para tratamento de erros
 	panic("A media é exatamente 6!")
 }
 
