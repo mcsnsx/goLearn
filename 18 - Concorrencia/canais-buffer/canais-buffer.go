@@ -9,8 +9,10 @@ import "fmt"
 // dentro da mesma função é criar um canal com buffer onde você especifica a capacidade para o seu
 // canal
 
+// Canal com buffer --> ele só vai bloquear quando atingir a capacidade máxima dele
+
 func main() {
-	canal := make(chan string, 2)
+	canal := make(chan string, 2) // o 2 é a capacidade do canal
 	canal <- "Ola mundo"
 
 	mensagem := <-canal
