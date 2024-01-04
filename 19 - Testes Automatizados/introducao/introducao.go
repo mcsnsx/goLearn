@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"introducao-testes/enderecos"
+	enderecos "introducao-testes"
 )
 
 func main() {

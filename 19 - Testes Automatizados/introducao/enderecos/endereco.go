@@ -12,7 +12,7 @@ func TipoEndereco(endereco string) string {
 
 	// a função split divide a string em um slice, usa o espaço em branco para distinguir uma palavra
 	// da outra e ve se a primeira palavra bate com algum dos tipos
-	primeiraPalavra := strings.Split(enderecoMinusculo, "")[0]
+	primeiraPalavra := strings.Split(enderecoMinusculo, " ")[0]
 
 	enderecoValido := false
 	//se algum dos itens do slice bater, ele vira true
