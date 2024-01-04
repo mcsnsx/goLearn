@@ -25,3 +25,6 @@ func TestTipoDeEndereco(t *testing.T) {
 		t.Errorf("O tipo recebido é diferente do esperado! Esperava %s e recebeu %s", tipoDeEnderecoEsperado, tipoDeEnderecoRecebido)
 	}
 }
+
+// Esse teste não é considerado muito confiável porque está testando apenas um caso,
+// apenas uma variável, mas é possivel fazer inumeros testes com o mesmo teste
