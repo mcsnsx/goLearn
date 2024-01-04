@@ -2,6 +2,8 @@
 
 ![Logo](https://miro.medium.com/v2/resize:fit:1087/1*9_HsCl6OP4BruI9ZOCmhrw.png)
 
+<br>
+
 ## Status
 
 ```bash
@@ -16,18 +18,26 @@ Objetivo desse espaço:
 - Linguagem : Golang;
 - Ferramenta: Vs Code;
 
+<br>
+
 ## 📫 Informações sobre o Curso
 
 - Nome do curso: Aprenda Golang do Zero! Desenvolva uma APLICAÇÃO COMPLETA!
 - Duração total: 26h 48m •  10 sessões • 160 aulas
 - Link: https://www.udemy.com/course/aprenda-golang-do-zero-desenvolva-uma-aplicacao-completa/
 
+<br>
+
 ## 👩‍💻 Requisitos
 - Conhecimento básico de qualquer linguagem de programação
+
+<br>
 
 ## 👯‍♀️ Público Alvo
 - Desenvolvedores com qualquer nível de conhecimento
 - Qualquer um que tenha interesse em aprender Go!
+
+<br>
 
 ## 🧠 O que você aprenderá
 - Desenvolver uma rede social utilizando a linguagem Go
@@ -36,6 +46,8 @@ Objetivo desse espaço:
 - Construir uma aplicação de linha de comando
 - Construir uma API altamente robusta e escalável utilizando boas práticas
 - Todos os fundamentos da linguagem de forma aprofundada
+
+<br>
 
 ## ⚡️ Módulos e Aulas 
 
@@ -51,3 +63,5 @@ Objetivo desse espaço:
 | API - DevBook   | 45 aulas |6h47m |
 | Aplicação Web - DevBook   | 49 aulas |9h43m  |
 | Conclusão   | 1 aula |2m  |
+
+<img height="2" width="1500" src="https://i.ibb.co/1XBDN6P/Ativo-13.png" alt="Ativo-13">
