@@ -32,8 +32,21 @@ import (
 func main() {
 
 	http.HandleFunc("/home", func(w http.ResponseWriter, r *http.Request) {
-
+		// aqui não usamos "fmt.Println" para escrever uma mensagem, usamos uma função especifica
+		// que esta dentro do ResponseWriter, essa mensagem tem que estar obrigatoriamente no
+		// formato de slice de byte
+		w.Write([]byte("Ola mundo"))
 	})
 
+	// é possivel ter várias rotas com finalidades diferentes, isso divide as ações e
+	// isso pode ser feito em forma de unção como uma forma diferente de organização
+	http.HandleFunc("/usuarios", users)
+
+	// aqui estamos criando o servidor e subindo na porta 5000 e dentro dessa porta ele
+	// vai poder receber requisições e considerar a rota estabelecida, nesse caso "/home"
 	log.Fatal(http.ListenAndServe(":5000", nil))
+}
+
+func users(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte("Carregar página de usuario"))
 }
