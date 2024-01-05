@@ -4,4 +4,5 @@ use (
 	"./1 - Pacotes"
 	"./17 - Aplicação de Linha de Comando"
 	"./19 - Testes Automatizados/introducao/enderecos"
+	"./19 - Testes Automatizados/teste avancado"
 )
