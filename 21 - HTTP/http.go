@@ -30,5 +30,10 @@ import (
 // DELETE --> geralmente usado para deletar dados em um recurso
 
 func main() {
+
+	http.HandleFunc("/home", func(w http.ResponseWriter, r *http.Request) {
+
+	})
+
 	log.Fatal(http.ListenAndServe(":5000", nil))
 }
