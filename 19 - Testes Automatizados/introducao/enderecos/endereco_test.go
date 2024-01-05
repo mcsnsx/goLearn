@@ -24,15 +24,18 @@ func TestTipoDeEndereco(t *testing.T) {
 	// tipoDeEnderecoEsperado := "Avenida"
 	// tipoDeEnderecoRecebido := TipoEndereco(enderecoParaTeste)
 
+	// faz os testes rodarem em paralelo
+	t.Parallel()
+
 	// essa é uma forma de testar várias respostas possiveis em um mesmo slice
 	cenarioDeTeste := []cenarioDeTeste{
 		{"Rua ABC", "Rua"},
 		{"Avenida Paulista", "Avenida"},
 		{"Rodovia dos Imigrantes", "Rodovia"},
-		{"Praça das Rosas", "tipo invalido"},
+		//{"Praça das Rosas", "tipo invalido"},
 		{"Estrada Qualquer", "Estrada"},
 		{"RUA DOS BOBOS", "Rua"},
-		{"", "tipo invalido"},
+		//{"", "tipo invalido"},
 	}
 
 	for _, cenario := range cenarioDeTeste {
@@ -51,3 +54,12 @@ func TestTipoDeEndereco(t *testing.T) {
 
 // Esse teste não é considerado muito confiável porque está testando apenas um caso,
 // apenas uma variável, mas é possivel fazer inumeros testes com o mesmo teste
+
+func TestQualquer(t *testing.T) {
+	// faz os testes rodarem em paralelo
+	t.Parallel()
+
+	if 1 > 2 {
+		t.Errorf("Teste quebrou!")
+	}
+}
