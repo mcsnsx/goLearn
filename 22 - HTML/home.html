@@ -10,8 +10,16 @@
 </head>
 <body>
     <h2>Página Principal</h2>
-    <marquee>
+    <button id="botao">Clique em mim</button>
+    <!-- <marquee>
         <h4>Seja bem vindo, {{ .Nome }}!</h4>
-    </marquee>
+    </marquee> -->
+
+    <script>
+        var botao = document.getElementById("botao")
+        botao.onclick = function(){
+            alert("Botão clicado com sucesso!")
+        }
+    </script>
 </body>
 </html>
