@@ -5,4 +5,6 @@ use (
 	"./17 - Aplicação de Linha de Comando"
 	"./19 - Testes Automatizados/introducao/enderecos"
 	"./19 - Testes Automatizados/teste avancado"
+	"./23 - Banco de Dados"
+	"./24 - Crud Básico"
 )
